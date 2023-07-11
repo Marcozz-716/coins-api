@@ -1,0 +1,97 @@
+.navbar-header{
+    width: 100%;
+}
+
+.navbar-header, .scroll-sidebar{
+    position: fixed;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    background-color: #fff;
+}
+
+
+.sidebar i{
+    color: #f33155;
+}
+
+.painel-coins{
+    overflow-x: scroll;
+    align-items: center;
+}
+
+.painel-coins div{
+    padding: 20px;
+    max-width: 400px;
+
+}
+
+.caixa div {
+     margin: 10px;
+     text-align: center;
+    }
+    
+    .first {
+        width: 25%;
+        display: inline-block;
+        word-wrap: break-word;
+        font-size: 17px;
+    }
+
+    .third{
+        display: inline-grid;
+    }
+
+   .caixa img{
+        width: 30%;
+        max-width: 100%;
+        width: 600px;
+    }
+    .panel h3{
+        padding-bottom: 30px;
+    }
+
+    @media screen and (max-width: 500px) {
+
+        .first,
+        .second,
+        .third {
+            width: 70%;
+        }
+    }
+    .tech{
+      text-align: center;
+    }
+    .tech div{
+        width: 30%;
+        max-width: 100%;
+        display: inline-block;
+        padding: 30px;
+
+    }
+    .tech i{
+        font-size: 90px;
+        padding-bottom: 25px;
+    }
+    @media screen and (max-width: 500px) {
+
+    .tech div {
+        width: 70%;
+    }
+    }
+
+    /* icones das tecnologias: */
+    .tech .html{
+        color: orangered;
+    }
+    .tech .css{
+        color: rgb(0, 98, 255);
+    }
+    .tech .js{
+        color: orange;
+    }
+
+    .footer i{
+        padding-right: 20px;
+    }
+
+  
+   
