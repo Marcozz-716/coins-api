@@ -96,7 +96,7 @@ $(function () {
    setTimeout(() => {
     var sparklineLogin = function () {
         $('#sparklinedash').sparkline(arr_coin1.slice(0).reverse(), {
-            type: 'line',
+            type: 'bar',
             height: '30',
             barWidth: '4',
             resize: false,
